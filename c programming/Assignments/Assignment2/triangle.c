@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+	float s1,s2,s3;
+	printf("Enter three sides of triangle");
+	scanf("%f %f %f",&s2,&s2,&s3);
+	if(s1==s2&&s2==s3)
+	{
+		printf("Triangle is equilateral");
+	}
+	else if(s1==s2||s2==s3||s1==s3)
+	{
+		printf("Triangle is isosceles");
+		
+	}
+	else
+	{
+		printf("Triangle is scalene");
+	}
+}
