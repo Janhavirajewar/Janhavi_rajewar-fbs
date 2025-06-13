@@ -1,0 +1,21 @@
+void leapyear();
+
+void main()
+{
+	leapyear();
+}
+	void leapyear()
+	{
+		int year=1999;
+		if(year%4==0||year%100!=0&&year%400==0)
+		
+		{
+			printf("%d year is leap year",year);
+		}
+		
+		else
+		{
+			printf("%d year is not leap year",year);
+		}
+	}
+
